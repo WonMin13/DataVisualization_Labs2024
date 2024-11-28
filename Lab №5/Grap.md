@@ -97,3 +97,25 @@ interval = alt.selection_interval() - Добавляет возможность 
 .transform_filter(inte - al)
 
 Фильтрует данные на второй панели, отображая только выделенные на первой панели.
+
+
+# Графики из L5-6-Transformations
+
+## Упражение
+![image](https://github.com/user-attachments/assets/c888567a-fb30-440f-a594-30e40f5ea7ec)
+
+Создать график, основанные на этих данных и сформировать график синуса и косинуса с помощью функции Altair transform_calculate.
+Использовать transform_filter на этом графике, и удалить области графика, где значение косинуса меньше значения синуса.
+
+### График синуса и косинуса:
+![image](https://github.com/user-attachments/assets/bb295e71-5864-4667-8575-051139072df6)
+
+
+transform_calculate( sin='sin(datum.x)', cos='cos(datum.x)' ) - Вычисляет значения синуса (sin) и косинуса (cos) для каждого x с помощью выражения Als меньше sin.
+
+### Фильтрация областей:
+![image](https://github.com/user-attachments/assets/42c72e88-1bf2-4fa4-9d41-dfe53a63618e)
+
+![image](https://github.com/user-attachments/assets/706bc7f7-9bf1-4429-86b8-712bbfdb051b)
+
+transform_filter( 'datum.cos >= datum.sin' ) - Фильтрует данные, исключая те области, где cos меньше sin.
