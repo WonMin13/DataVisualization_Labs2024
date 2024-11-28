@@ -69,7 +69,7 @@ Encodings: x, y, color, shape, row, column, opacity, text, tooltip...
 
 ![image](https://github.com/user-attachments/assets/ef905563-ce97-410f-8eec-6170267b4ac5)
 
-
+---------------------------------------------------------------------------------------------
 
 # Графики из L5-5-Selections
 
