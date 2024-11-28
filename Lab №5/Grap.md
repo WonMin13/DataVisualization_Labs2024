@@ -70,3 +70,30 @@ Encodings: x, y, color, shape, row, column, opacity, text, tooltip...
 ![image](https://github.com/user-attachments/assets/ef905563-ce97-410f-8eec-6170267b4ac5)
 
 
+
+# Графики из L5-5-Selections
+
+## Упражения: выбор
+1) Используя данные cars, создайте диаграмму рассеяния, где размер точек становится больше при наведении.
+
+2) Используя данные cars, создайте двухпанельный график с гистограммами (например, миль на галлон на одной панели, мощность (horsepower) – на другой), в котором выделение данных на одной гистограмме фильтрует данные на второй.
+
+### Диаграмма рассеяния с изменением размера точек при наведении:
+![image](https://github.com/user-attachments/assets/8e10bff5-0668-4eb9-90ec-1950fe3db4d2)
+
+![image](https://github.com/user-attachments/assets/cfb539ab-1675-45a6-b094-68798567bca5)
+
+hover = alt.selection_single(on='mouseover', nearest=True) - Создаёт интерактивный объект, реагирующий на наведение курсора (mouseover) и выделяющий ближайшую точку (nearest=True).
+
+size=alt.condition(hover, alt.value(200), alt.value(50)) - Увеличивает размер точки до 200 при наведении и уменьшает до 50, если точка не выбрана.
+
+### Двухпанельный график с фильтрацией:
+![image](https://github.com/user-attachments/assets/75b66f53-9382-4df5-9d88-4c8249ac7ce2)
+
+![image](https://github.com/user-attachments/assets/e364850b-5a53-408a-a266-4d31aa7fdac8)
+
+interval = alt.selection_interval() - Добавляет возможность выделять диапазон (например, на одной панели)
+
+.transform_filter(inte - al)
+
+Фильтрует данные на второй панели, отображая только выделенные на первой панели.
