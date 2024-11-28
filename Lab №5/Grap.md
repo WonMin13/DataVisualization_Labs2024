@@ -10,32 +10,19 @@ Data Columns: 'Acceleration', 'Cylinders', 'Displacement', 'Horsepower', 'Miles_
 Encodings: x, y, color, shape, row, column, opacity, text, tooltip...
 
 ### График с mark_bar()
-alt.Chart(cars).mark_bar().encode(
-    x='Origin:N',
-    y='mean(Horsepower):Q',
-    color='Origin:N'
-)
+![image](https://github.com/user-attachments/assets/6d0fab82-e94a-4bd6-ba23-94b2bf6b3c3d)
 
 ![image](https://github.com/user-attachments/assets/ab14d729-5a1e-484a-ad5a-38a6632fb92c)
 
 
 ### График с mark_line()
-alt.Chart(cars).mark_line().encode(
-    x='Year:T',
-    y='mean(Miles_per_Gallon):Q',
-    color='Origin:N'
-)
+![image](https://github.com/user-attachments/assets/561ed5d9-c353-4bf6-abea-1b88248b7731)
 
 ![image](https://github.com/user-attachments/assets/295dd615-21ca-4f3c-9d27-c10c18797823)
 
 
 ### График с mark_point()
-alt.Chart(cars).mark_point().encode(
-    x='Horsepower:Q',
-    y='Miles_per_Gallon:Q',
-    color='Cylinders:O',
-    tooltip='Name:N'
-)
+![image](https://github.com/user-attachments/assets/09132f0b-3850-4cd2-b785-f66490e7b734)
 
 ![image](https://github.com/user-attachments/assets/122f138f-72e9-4ccf-86c7-757f34d2e5c0)
 
@@ -54,50 +41,31 @@ alt.Chart(cars).mark_point().encode(
 Если среди этих графиков есть те, которые будут выглядеть лучше с другими типами данных, нарисуйте их отдельно.
 
 ### Бар-график
-alt.Chart(cars).mark_bar().encode(
-    y='Origin:N',
-    x='mean(Horsepower):Q'
-)
+![image](https://github.com/user-attachments/assets/ad0a7eed-597b-46c9-94b2-9759dac1aa13)
 
 ![image](https://github.com/user-attachments/assets/e96f8cae-2a0f-4ad0-9db1-7f07ffcb5ec9)
 
 
 ### Линейный график
-alt.Chart(cars).mark_line().encode(
-    x='Year:T',
-    y='mean(Miles_per_Gallon):Q',
-    color='Origin:N'
-)
+![image](https://github.com/user-attachments/assets/2d599dfb-3c15-4375-8e3d-1b0082e1de2d)
 
 ![image](https://github.com/user-attachments/assets/a8e4bd6c-198d-40f4-8332-6988074284f8)
 
 
 ### Гистограмма цилиндров
-alt.Chart(cars).mark_bar().encode(
-    y='Cylinders:O',
-    x='count():Q',
-    color='Origin:N'
-)
+![image](https://github.com/user-attachments/assets/46acae20-d6fb-4020-8d96-6683bdf69ffb)
 
 ![image](https://github.com/user-attachments/assets/130f1014-0112-4b13-a000-1792ac0b89d6)
 
 
 ### Тепловая карта
-alt.Chart(cars).mark_rect().encode(
-    x='Cylinders:O',
-    y='Origin:N',
-    color='count():Q'
-)
+![image](https://github.com/user-attachments/assets/26fc1f45-efbf-4004-ac1f-f20709986f36)
 
 ![image](https://github.com/user-attachments/assets/f06d941c-e1a7-496b-a0c1-5fe8d11ffeca)
 
 
 ### Добавьте график, который будет выглядеть лучше с другими типами данных
-alt.Chart(cars).mark_bar().encode(
-    y='Cylinders:O',
-    x='mean(Acceleration):Q',
-    color='Origin:N'
-)
+![image](https://github.com/user-attachments/assets/49b515b6-1c68-4196-a274-a248bac6ed46)
 
 ![image](https://github.com/user-attachments/assets/ef905563-ce97-410f-8eec-6170267b4ac5)
 
