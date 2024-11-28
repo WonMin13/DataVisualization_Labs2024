@@ -134,6 +134,7 @@ transform_filter( 'datum.cos >= datum.sin' ) - Фильтрует данные, 
 * пределы осей x и y.
 ![image](https://github.com/user-attachments/assets/6b877678-3dbb-4544-b3c5-0581d6cbd9e5)
 
+![image](https://github.com/user-attachments/assets/c2f47024-d2cd-4998-b51d-fa93f152879f)
 
 
 #### Настройка графиков
