@@ -8,4 +8,4 @@
 |   3   |[Ссылка на 3 лр](https://github.com/WonMin13/DataVisualization_Labs2024/blob/main/Lab%20%E2%84%963/6233_Lab_%E2%84%963_DubmanL.ipynb)           |          |
 |   4   |[Ссылка на 4 лр](https://github.com/WonMin13/DataVisualization_Labs2024/blob/main/Lab%20%E2%84%964/6233_Lab_%E2%84%964_Dubman.ipynb)            |          |
 |   5   |[Ссылка на 5 лр](https://github.com/WonMin13/DataVisualization_Labs2024/blob/main/Lab%20%E2%84%965/README.md)            |          |
-|   6   |[Ссылка на 6 лр]            |          |
+|   6   |[Ссылка на 6 лр](https://github.com/WonMin13/DataVisualization_Labs2024/blob/main/Lab%20%E2%84%966/README.md)            |          |
