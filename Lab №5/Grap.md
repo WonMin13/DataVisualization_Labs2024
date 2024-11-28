@@ -15,6 +15,7 @@ alt.Chart(cars).mark_bar().encode(
     y='mean(Horsepower):Q',
     color='Origin:N'
 )
+
 ![image](https://github.com/user-attachments/assets/ab14d729-5a1e-484a-ad5a-38a6632fb92c)
 
 
@@ -24,6 +25,7 @@ alt.Chart(cars).mark_line().encode(
     y='mean(Miles_per_Gallon):Q',
     color='Origin:N'
 )
+
 ![image](https://github.com/user-attachments/assets/295dd615-21ca-4f3c-9d27-c10c18797823)
 
 
@@ -34,6 +36,7 @@ alt.Chart(cars).mark_point().encode(
     color='Cylinders:O',
     tooltip='Name:N'
 )
+
 ![image](https://github.com/user-attachments/assets/122f138f-72e9-4ccf-86c7-757f34d2e5c0)
 
 ### Вопросы:
@@ -55,6 +58,7 @@ alt.Chart(cars).mark_bar().encode(
     y='Origin:N',
     x='mean(Horsepower):Q'
 )
+
 ![image](https://github.com/user-attachments/assets/e96f8cae-2a0f-4ad0-9db1-7f07ffcb5ec9)
 
 
@@ -64,6 +68,7 @@ alt.Chart(cars).mark_line().encode(
     y='mean(Miles_per_Gallon):Q',
     color='Origin:N'
 )
+
 ![image](https://github.com/user-attachments/assets/a8e4bd6c-198d-40f4-8332-6988074284f8)
 
 
@@ -73,6 +78,7 @@ alt.Chart(cars).mark_bar().encode(
     x='count():Q',
     color='Origin:N'
 )
+
 ![image](https://github.com/user-attachments/assets/130f1014-0112-4b13-a000-1792ac0b89d6)
 
 
@@ -82,6 +88,7 @@ alt.Chart(cars).mark_rect().encode(
     y='Origin:N',
     color='count():Q'
 )
+
 ![image](https://github.com/user-attachments/assets/f06d941c-e1a7-496b-a0c1-5fe8d11ffeca)
 
 
@@ -91,6 +98,7 @@ alt.Chart(cars).mark_bar().encode(
     x='mean(Acceleration):Q',
     color='Origin:N'
 )
+
 ![image](https://github.com/user-attachments/assets/ef905563-ce97-410f-8eec-6170267b4ac5)
 
 
